@@ -2,32 +2,21 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/my_light_primary</item>
-        <item name="colorPrimaryVariant">@color/my_light_primary_variant</item>
-        <item name="colorSecondary">@color/my_light_secondary</item>
+        <item name="colorPrimary">@color/my_light_primary_color</item>
+        <item name="colorPrimaryVariant">@color/my_light_primary_variant_color</item>
+        <item name="colorSecondary">@color/my_light_secondary_color</item>
     </style>
 
     <style name="StyleTitle14" parent="TextAppearance.AppCompat">
         <item name="android:fontFamily">@font/montserrat_alternates_semibold</item>
         <item name="android:textAllCaps">true</item>
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/white_color</item>
         <item name="android:textSize">14sp</item>
     </style>
 
     <style name="StyleNavButton" parent="Widget.Material3.Button">
-        <item name="android:singleLine">true</item>
-        <item name="iconStartPadding">10dp</item>
-        <item name="iconSize">24dp</item>
-        <item name="android:paddingStart">0dp</item>
-        <item name="android:paddingEnd">0dp</item>
         <item name="android:textAppearance">@style/StyleTitle14</item>
-        <item name="iconGravity">textEnd</item>
-        <item name="android:gravity">center</item>
-        <item name="android:insetLeft">0dp</item>
-        <item name="android:insetRight">0dp</item>
-        <item name="android:insetTop">0dp</item>
-        <item name="android:insetBottom">0dp</item>
-        <item name="cornerRadius">8dp</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
     </style>
 
 </resources>

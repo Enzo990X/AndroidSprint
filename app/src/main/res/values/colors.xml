@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="my_light_primary">#FF525DC0</color>
-    <color name="my_light_primary_variant">#FFA1A9F9</color>
-    <color name="my_light_secondary">#FFE13E3E</color>
-    <color name="my_light_background">#FFF4FAFF</color>
+    <color name="black_color">#FF000000</color>
+    <color name="white_color">#FFFFFFFF</color>
+    <color name="my_light_primary_color">#FF525DC0</color>
+    <color name="my_light_primary_variant_color">#FFA1A9F9</color>
+    <color name="my_light_secondary_color">#FFE13E3E</color>
+    <color name="my_light_background_color">#FFF4FAFF</color>
     <color name="me_header_text_color">#FF5f3678</color>
     <color name="my_main_text_color">#FF666666</color>
 
