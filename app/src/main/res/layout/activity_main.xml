@@ -1,19 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/my_light_background_color"
+    android:orientation="vertical"
+    android:gravity="bottom"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginStart="@dimen/activity_margin"
+        android:layout_marginEnd="@dimen/activity_margin"
+        android:layout_marginBottom="@dimen/activity_half_margin"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            style="@style/StyleNavButton"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/button_padding_from_center"
+            android:backgroundTint="@color/my_light_primary_color"
+            android:text="@string/title_categories" />
+
+        <Button
+            style="@style/StyleNavButton"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/button_padding_from_center"
+            android:backgroundTint="@color/my_light_secondary_color"
+            android:text="@string/title_favourites"
+            app:icon="@drawable/ic_heart"
+            app:iconStartPadding="@dimen/padding_start_heart_button"
+            app:iconSize="@dimen/ic_size_heart_button"
+            app:iconGravity="textEnd"
+            android:paddingHorizontal="@dimen/zero_dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

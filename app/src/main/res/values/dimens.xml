@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_half_margin">8dp</dimen>
+    <dimen name="button_corner_radius">8dp</dimen>
+    <dimen name="button_padding_from_center">2dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="padding_start_heart_button">10dp</dimen>
+    <dimen name="ic_size_heart_button">24dp</dimen>
+
+</resources>
